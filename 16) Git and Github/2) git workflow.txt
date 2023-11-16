@@ -1,0 +1,33 @@
+The Git workflow is a fundamental process for managing source code using Git, a distributed version control system. It involves three main areas: the working directory, the staging area (also known as the index), and the repository. 
+
+
+1) Working Directory:
+	The working directory is your local copy of the entire Git project. It contains all the project's files and directories.
+This is where you make changes to your code, whether you're adding new files, modifying existing ones, or deleting files.
+
+2) Staging Area (Index):
+	The staging area is an intermediate step between the working directory and the Git repository. It acts as a holding area where you select and prepare changes for the next commit.Staging allows you to review and fine-tune your changes before making them a part of your project's history.
+
+3) Git Repository:
+	The Git repository is the core of version control. It contains the complete history of your project.When you commit your changes using the git commit command, Git takes the changes from the staging area and saves them in the repository. This creates a new snapshot of your project.
+
+An overview of how the Git workflow typically progresses:
+
+1) Working on Your Code:
+	You start by making changes in your working directory. This includes creating, modifying, or deleting files.
+
+2)Staging Changes:
+	Before committing your changes, you selectively add them to the staging area using git add. This allows you to choose which changes you want to include in the next commit.
+
+3) Committing Changes:
+	Once your changes are staged, you commit them to the Git repository using the git commit command. You can provide a commit message to describe the purpose of the commit.
+
+4) Review and Repeat:
+	The process of making changes in your working directory, staging them, and committing them can be repeated as many times as necessary.
+Each commit represents a snapshot of your project at a specific point in time.
+
+5)Branching and Merging:
+	Git also allows you to create branches for parallel development. You can work on different features or bug fixes in separate branches and then merge them back into the main branch when they are ready.
+
+6) Pushing and Pulling:
+	In a distributed Git workflow, you can push your local commits to a remote repository to share your changes with others. You can also pull changes from a remote repository to update your local repository.
